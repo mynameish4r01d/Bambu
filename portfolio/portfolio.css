@@ -122,7 +122,7 @@ html{
 }
 
 .nav-button:hover{
-  width: 127px;
+  width: 130px;
 }
 
   .parent-nav-div02{
@@ -141,7 +141,7 @@ html{
 
   .nav-button-quote{
     align-self: center;
-    width: 190px;
+    width: 240px;
     height: 40px;
     background-color: rgb(236, 236, 236);
     margin-top: 10px;
@@ -328,10 +328,19 @@ html{
             background-color: #f0f0f0;
             border-radius: 10px;
             transition: 0.40s;
+
+            .img{
+              object-fit: cover;
+              width: 100%;
+              height: 100%;
+              border-radius: 10px;
+
+            }
           }
 
           .img-container:hover{
             transform: scale(1.03);
+            filter: brightness(0.9);
           }
 
           .title{
@@ -371,10 +380,17 @@ html{
             background-color: #f0f0f0;
             border-radius: 10px;
             transition: 0.40s;
+
+            .img{
+              border-radius: 10px;
+
+            }
           }
 
           .img-container:hover{
             transform: scale(1.03);
+            filter: brightness(0.9);
+
           }
 
           .title{
@@ -488,6 +504,25 @@ html{
           }
       
           .details-nav:hover{
+            background-color: #b5c87e;
+            color: #2a2a2a;
+            margin-left: 15px;
+            padding-left: 20px;
+          }
+
+          .details-nav-quote{
+            font-family: "Inter", sans-serif;
+            font-size: 15px;
+            color: #727272;
+            font-weight: 60;
+            margin-top: 10px;
+            width: 120px;
+            padding: 10px;
+            border-radius: 100px;
+            transition: 0.40s;
+          }
+      
+          .details-nav-quote:hover{
             background-color: #b5c87e;
             color: #2a2a2a;
             margin-left: 15px;

@@ -121,7 +121,7 @@ html{
 }
 
 .nav-button:hover{
-  width: 127px;
+  width: 130px;
 }
 
   .parent-nav-div02{
@@ -140,7 +140,7 @@ html{
 
   .nav-button-quote{
     align-self: center;
-    width: 190px;
+    width: 240px;
     height: 40px;
     background-color: rgb(236, 236, 236);
     margin-top: 10px;
@@ -466,6 +466,25 @@ html{
           }
       
           .details-nav:hover{
+            background-color: #b5c87e;
+            color: #2a2a2a;
+            margin-left: 15px;
+            padding-left: 20px;
+          }
+
+          .details-nav-quote{
+            font-family: "Inter", sans-serif;
+            font-size: 15px;
+            color: #727272;
+            font-weight: 60;
+            margin-top: 10px;
+            width: 120px;
+            padding: 10px;
+            border-radius: 100px;
+            transition: 0.40s;
+          }
+      
+          .details-nav-quote:hover{
             background-color: #b5c87e;
             color: #2a2a2a;
             margin-left: 15px;
