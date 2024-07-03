@@ -444,7 +444,7 @@ html{
     }
 
     .text-container01{
-      width: 70%;
+      width: 50%;
       height: auto;
       margin-left: auto;
       margin-right: auto;
@@ -478,7 +478,7 @@ html{
       .scroll-container-mobile02{
         display: flex;
         width: 100%;
-        height: 200px;
+        height: 160px;
         gap: 5px;
         overflow-x: scroll;
         overflow-y: hidden;
@@ -489,7 +489,7 @@ html{
           scroll-snap-align: center;
 
           height: 100%;
-          width: 87%;
+          width: 100%;
           object-fit: cover;
           border-radius: 13px;
           transition: 0.40s;
@@ -503,6 +503,16 @@ html{
         display: none;
       }
 
+      
+      .img-head{
+        scroll-snap-align: center;
+
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 13px;
+        transition: 0.40s;
+      }
 
 
 
@@ -512,35 +522,55 @@ html{
 
       .item-container{
         display: flex;
-        gap: 20px;
-        width: 70%;
+        gap: 40px;
+        width: 60%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
+        justify-content: center;
 
         .item-box{
           width: 100%;
           height: 100%;
+          padding: 10px;
+          transition: 0.40s;
+          border-radius: 16px;
+          border: solid 1px #f6f6f6;
+
+
+          .img-head{
+            scroll-snap-align: center;
+            height: 160px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 13px;
+            transition: 0.40s;
+          }
+
 
           .img-container{
             width: 100%;
-            height: 200px;
+            height: 160px;
             border-radius: 13px;
           }
 
           .title{
             color: #2a2a2a;
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 900;
             margin-top: 10px;
+            transition: 0.40s;
+
           }          
           
           .details{
             color: #727272;
-            font-size: 14px;
+            font-size: 10px;
             font-weight: 300;
             margin-top: 5px;
+            transition: 0.40s;
+
           }
 
           .flex{
@@ -551,9 +581,30 @@ html{
 
             .text-container{
               margin-top: 10px;
+              transition: 0.40s;
+
             }
           }
           
+        }
+
+        .item-box:hover{
+          transform: scale(1.1);
+          border: solid 1px #cfcfcf;
+          border-radius: 16px;
+
+
+          .title{
+            transform: scale(0.9);
+          }
+          .details{
+            transform: scale(0.9);
+          }
+
+          .text-container{
+            transform: scale(0.9);
+          }
+
         }
       }
 
@@ -565,35 +616,55 @@ html{
       
       .item-container02{
         display: flex;
-        gap: 20px;
-        width: 70%;
+        gap: 40px;
+        width: 60%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
         margin-top: 50px;
+        justify-content: center;
 
         .item-box{
           width: 100%;
           height: 100%;
+          padding: 10px;
+          transition: 0.40s;
+          border-radius: 16px;
+          border: solid 1px #f6f6f6;
+
+
+          .img-head{
+            scroll-snap-align: center;
+            height: 160px;
+            width: 100%;
+            object-fit: cover;
+            border-radius: 13px;
+            transition: 0.40s;
+          }
+
 
           .img-container{
             width: 100%;
-            height: 200px;
+            height: 160px;
             border-radius: 13px;
           }
 
           .title{
             color: #2a2a2a;
-            font-size: 14px;
+            font-size: 13px;
             font-weight: 900;
             margin-top: 10px;
+            transition: 0.40s;
+
           }          
           
           .details{
             color: #727272;
-            font-size: 14px;
+            font-size: 10px;
             font-weight: 300;
             margin-top: 5px;
+            transition: 0.40s;
+
           }
 
           .flex{
@@ -604,9 +675,30 @@ html{
 
             .text-container{
               margin-top: 10px;
+              transition: 0.40s;
+
             }
           }
           
+        }
+
+        .item-box:hover{
+          transform: scale(1.1);
+          border: solid 1px #cfcfcf;
+          border-radius: 16px;
+
+
+          .title{
+            transform: scale(0.9);
+          }
+          .details{
+            transform: scale(0.9);
+          }
+
+          .text-container{
+            transform: scale(0.9);
+          }
+
         }
       }
 
@@ -621,7 +713,7 @@ html{
 
       
       .text-container02{
-        width: 70%;
+        width: 60%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -658,7 +750,7 @@ html{
       .flex-box{
         display: flex;
         gap: 15px;
-        width: 70%;
+        width: 58%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -670,10 +762,11 @@ html{
 
           .img-container{
             width: 100%;
-            height: 300px;
+            height: 200px;
             background-color: #f0f0f0;
             border-radius: 10px;
             transition: 0.40s;
+            
           }
 
           .img-container:hover{
@@ -681,7 +774,7 @@ html{
           }
 
           .title{
-            font-size: 15px;
+            font-size: 13px;
             color: #2a2a2a;
             font-weight: 900;
             margin-top: 10px;
@@ -689,7 +782,7 @@ html{
           }
 
           .details{
-            font-size: 13px;
+            font-size: 10px;
             color: #727272;
             font-weight: 300;
             margin-top: 5px;
@@ -701,7 +794,7 @@ html{
       .flex-box02{
         display: flex;
         gap: 15px;
-        width: 70%;
+        width: 58%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
@@ -713,7 +806,7 @@ html{
 
           .img-container{
             width: 100%;
-            height: 300px;
+            height: 200px;
             background-color: #f0f0f0;
             border-radius: 10px;
             transition: 0.40s;
@@ -724,7 +817,7 @@ html{
           }
 
           .title{
-            font-size: 15px;
+            font-size: 13px;
             color: #2a2a2a;
             font-weight: 900;
             margin-top: 10px;
@@ -732,7 +825,7 @@ html{
           }
 
           .details{
-            font-size: 13px;
+            font-size: 10px;
             color: #727272;
             font-weight: 300;
             margin-top: 5px;
@@ -1215,7 +1308,7 @@ html{
 
       .item-container{
         display: flex;
-        gap: 10px;
+        gap: 0px;
         width: 93%;
         height: auto;
         margin-left: auto;
@@ -1223,8 +1316,9 @@ html{
         margin-top: 10px;
 
         .item-box{
-          width: 100%;
+          width: 150px;
           height: 100%;
+          transform: scale(0.9);
 
           .img-container{
             width: 100%;
@@ -1259,6 +1353,10 @@ html{
           }
           
         }
+
+        .item-box:hover{
+          transform: scale(0.95);
+        }
       }
 
 
@@ -1279,22 +1377,23 @@ html{
 
       .item-container02{
         display: flex;
-        gap: 10px;
+        gap: 0px;
         width: 93%;
         height: auto;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 30px;
+        margin-top: 10px;
 
         .item-box{
-          width: 100%;
+          width: 150px;
           height: 100%;
+          transform: scale(0.9);
 
           .img-container{
             width: 100%;
             height: 150px;
-            background-color: #f0f0f0;
             border-radius: 13px;
+            background-color: #f0f0f0;
           }
 
           .title{
@@ -1322,6 +1421,10 @@ html{
             }
           }
           
+        }
+
+        .item-box02:hover{
+          transform: scale(0.95);
         }
       }
 
